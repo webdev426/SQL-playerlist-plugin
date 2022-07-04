@@ -1,0 +1,27 @@
+# Plugin state
+enabled: true
+
+# Server field in table
+server-name: server
+
+# SQL Connection
+sql:
+  host: localhost
+  port: 3306
+  user: root
+  pass: pass
+  db: minecraft
+  table: players_online
+
+# Settings for SSH Tunelling
+tunnel:
+  enabled: false
+  host: ssh.domain.com
+  port:
+    ssh: 22
+    local: 3309
+  user: root
+  pass: pass
+
+# Plugin version
+version: 1.0
